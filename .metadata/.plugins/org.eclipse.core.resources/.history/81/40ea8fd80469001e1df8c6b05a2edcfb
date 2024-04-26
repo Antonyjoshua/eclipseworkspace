@@ -1,0 +1,20 @@
+package com.auto;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Dynamic_dropdown {
+
+	public static void main(String[] args) {
+		WebDriver driver= new EdgeDriver();
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		driver.manage().window().maximize();
+		driver.findElement(By.className("select_CTXT")).click();
+		driver.findElement(By.xpath("(//a[@value='MAA']")).click();
+		driver.findElement(By.xpath("//a[@value='BLR']")).click();
+		//driver.findElement(By.xpath("(//a[@value='MAA']")).click();
+
+	}
+
+}

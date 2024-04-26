@@ -1,0 +1,51 @@
+package com.corejave;
+
+public class NesterForLoop {
+	
+	public static void inverted() {
+		//1
+		//23
+		//456
+		//78910
+		int k=1;
+		for (int i = 0; i <4; i++) {
+			
+			
+			for (int j = 1; j <= 1+i; j++) {
+				
+				System.out.print(k);
+				System.out.print("i");
+				System.out.print("\t");
+				k++;
+				
+				
+			}
+			System.out.println(" ");
+			
+		}
+
+	}
+
+	public static void main(String[] args) {
+		inverted();
+		int k=1;
+		for (int i = 0; i <4; i++) {
+			
+			//System.out.println(i);
+			for (int j = 1; j <=4-i; j++) { //it will run 4 times first and then each time it will decrement one column
+				
+				System.out.print(k);
+				System.out.print("\t");
+				k++;
+				
+				
+			}
+			System.out.println(" ");
+			
+		}
+
+	}
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package com.prac;
+
+public class Fluent_wait {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

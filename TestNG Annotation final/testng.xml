@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Myhotelai">
+  <test name="Users and hotels">
+	  <classes>
+		  <class name="Final.Hotels"></class>
+		  <class name="Final.Users"></class>
+	  </classes>
+	  
+  </test> 
+  <test name="Tickets and Review">
+	  <classes>
+		  <class name="Final.Tickets"></class>
+		  <class name="Final.Review"></class>
+	  </classes>
+	  
+  </test> 
+  <test name="Parameter">
+	  <parameter name="Username" value="Antonyjoshua@yopmail.com"/>
+     <parameter name="Username2" value="mercy@yopmail.com"/>
+	  
+	  <classes>
+		  <class name="Final.Parameterization"/>
+		  
+	  </classes>
+	  
+  </test> 
+</suite> 
+

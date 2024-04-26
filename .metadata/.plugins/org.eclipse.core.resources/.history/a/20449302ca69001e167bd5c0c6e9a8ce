@@ -1,0 +1,34 @@
+package com.MyHotelAI;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class App 
+{
+    public static void main( String[] args ) throws InterruptedException
+    {
+     WebDriver driver= new EdgeDriver();
+     driver.get("https://testadmin.myhotelai.com/");
+     driver.manage().window().maximize();
+     WebElement username = driver.findElement(By.xpath("//input[@type='email']"));
+     username.sendKeys("info@myhotelai.com");
+     WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
+  	 password.sendKeys("pass123");
+  	 WebElement login = driver.findElement(By.xpath("//a[text()='login']"));
+  	 login.click();
+  	 Thread.sleep(3000);
+  	 System.out.println(driver.findElement(By.xpath("(//*[@class=' css-13cymwt-control'])[1]")).isDisplayed());
+     List<WebElement> findElements = driver.findElements(By.xpath("//*[@class=' css-13cymwt-control']"));
+     for (WebElement webElement : findElements) {
+    	  String text = webElement.getText();
+    	  System.out.println(text);
+		
+	}
+      
+      
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Myhotelai">
+	
+  <test name="Regression">
+	  <groups>
+		  <run>
+			  <include name="Editing"></include>
+		  </run>
+	  </groups>
+	  <classes>
+		  <class name="Final.Hotels"></class>
+		  <class name="Final.Users"></class>
+		  <class name="Final.Tickets"></class>
+		  <class name="Final.Review"></class>
+	  </classes>
+	  
+  </test> 
+</suite> 
+

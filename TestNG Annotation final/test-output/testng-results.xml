@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T23:47:14 IST" name="Myhotelai" finished-at="2024-02-21T23:47:14 IST" duration-ms="135">
+    <groups>
+      <group name="Editing">
+        <method signature="Hotels.editHotels()[pri:0, instance:Final.Hotels@72e5a8e]" name="editHotels" class="Final.Hotels"/>
+        <method signature="Review.deleteReview()[pri:0, instance:Final.Review@70e9c95d]" name="deleteReview" class="Final.Review"/>
+        <method signature="Tickets.editticket()[pri:0, instance:Final.Tickets@2e3967ea]" name="editticket" class="Final.Tickets"/>
+        <method signature="Users.editUsers()[pri:0, instance:Final.Users@5d534f5d]" name="editUsers" class="Final.Users"/>
+      </group> <!-- Editing -->
+    </groups>
+    <test started-at="2024-02-21T23:47:14 IST" name="Regression" finished-at="2024-02-21T23:47:14 IST" duration-ms="135">
+      <class name="Final.Tickets">
+        <test-method signature="editticket()[pri:0, instance:Final.Tickets@2e3967ea]" started-at="2024-02-21T23:47:14 IST" name="editticket" finished-at="2024-02-21T23:47:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editticket -->
+      </class> <!-- Final.Tickets -->
+      <class name="Final.Users">
+        <test-method signature="editUsers()[pri:0, instance:Final.Users@5d534f5d]" started-at="2024-02-21T23:47:14 IST" name="editUsers" finished-at="2024-02-21T23:47:14 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUsers -->
+      </class> <!-- Final.Users -->
+      <class name="Final.Hotels">
+        <test-method signature="editHotels()[pri:0, instance:Final.Hotels@72e5a8e]" started-at="2024-02-21T23:47:14 IST" name="editHotels" finished-at="2024-02-21T23:47:14 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editHotels -->
+      </class> <!-- Final.Hotels -->
+      <class name="Final.Review">
+        <test-method signature="deleteReview()[pri:0, instance:Final.Review@70e9c95d]" started-at="2024-02-21T23:47:14 IST" name="deleteReview" finished-at="2024-02-21T23:47:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteReview -->
+      </class> <!-- Final.Review -->
+    </test> <!-- Regression -->
+  </suite> <!-- Myhotelai -->
+</testng-results>
