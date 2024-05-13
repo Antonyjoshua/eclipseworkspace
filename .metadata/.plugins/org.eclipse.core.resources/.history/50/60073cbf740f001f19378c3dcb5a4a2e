@@ -1,0 +1,13 @@
+package testng.com;
+
+import org.testng.annotations.Test;
+
+public class Inheritance_1 {
+	
+	@Test
+	public void parentmethod()
+	{
+		System.out.println("Parent method");
+	}
+
+}

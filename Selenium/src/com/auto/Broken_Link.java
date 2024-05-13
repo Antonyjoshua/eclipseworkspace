@@ -68,10 +68,11 @@ public class Broken_Link {
 
 		}
 		// once the test execution is completed, if it have stored any failure it will
-		// fail the script at the end. if no failure is stored, it will pass the script.
+		// fail the script at the end and print the failure. if no failure is stored, it will pass the script.
 		// it
 		// shouldn't stop the execution until it is fully completed
-		//a.assertAll();
+		a.assertAll();
+		//assertall is mandatory to print the failure at the end
 	}
 
 }

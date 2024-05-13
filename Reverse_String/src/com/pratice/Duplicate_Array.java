@@ -8,6 +8,7 @@ import java.util.stream.IntStream;
 //Write a java program to remove the duplicate number
 public class Duplicate_Array {
 	
+	
 	public static void main(String[] arg)
 	{
 	int[] a = { 7, 2, 3, 6, 5, 5, 1 };

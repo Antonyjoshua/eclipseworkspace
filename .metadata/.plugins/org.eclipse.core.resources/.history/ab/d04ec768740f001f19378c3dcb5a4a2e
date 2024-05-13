@@ -1,0 +1,10 @@
+package testng.com;
+
+public class Inheritance_2 extends Inheritance_1{
+	public static void main(String[] arg)
+	{
+	Inheritance_2 in= new Inheritance_2();
+	in.parentmethod();
+	}
+
+}

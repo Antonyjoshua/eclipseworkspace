@@ -1,0 +1,10 @@
+package testng.com;
+
+public class Inheritance_1 {
+	
+	private void parentmethod()
+	{
+		System.out.println("Parent method");
+	}
+
+}

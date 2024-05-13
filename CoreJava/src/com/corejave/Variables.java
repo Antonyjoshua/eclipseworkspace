@@ -18,7 +18,7 @@ public class Variables {
 
 	public Variables(String name, String address)// local variable- declared within the method
 	{
-		// this- Refers the current instance
+		// this- Refers the current instance,current variable
 		this.name = name;
 		this.address = address;
 		System.out.println(j);
@@ -52,6 +52,7 @@ public class Variables {
 		System.out.println(getcity());
 		//Instance variable can be invoked using the object
 		System.out.println(v.name);
+		System.out.println(10+20+"Antony"+10+20);
 	}
 
 }
