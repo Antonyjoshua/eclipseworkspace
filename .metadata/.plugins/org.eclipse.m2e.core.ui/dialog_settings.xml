@@ -28,14 +28,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="SeleniumRealtime.RealTimeProject"/>
 			<item value="FirstMaven.MavenProject"/>
 			<item value="Practice"/>
 		</list>
 		<list key="groupId">
+			<item value="SeleniumRealtime"/>
 			<item value="FirstMaven"/>
 			<item value="Practice"/>
 		</list>
 		<list key="artifactId">
+			<item value="RealTimeProject"/>
 			<item value="MavenProject"/>
 		</list>
 		<list key="projectNameTemplate">
