@@ -1,9 +1,0 @@
-package testng.com;
-
-public class Inheritance_2 extends Inheritance_1{
-	public static void main(String[] arg)
-	{
-	
-	}
-
-}
