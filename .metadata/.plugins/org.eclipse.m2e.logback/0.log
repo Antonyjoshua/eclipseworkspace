@@ -2464,3 +2464,5 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2024-05-21 00:46:02,820 [Worker-99: Launching Standalonetest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ACW USER\eclipse-workspace\RealTimeProject\src\test\resources
 2024-05-21 00:47:28,108 [Worker-99: Launching Standalonetest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-05-21 00:47:28,109 [Worker-99: Launching Standalonetest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ACW USER\eclipse-workspace\RealTimeProject\src\main\resources
+2024-05-21 00:47:28,111 [Worker-99: Launching Standalonetest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-21 00:47:28,112 [Worker-99: Launching Standalonetest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ACW USER\eclipse-workspace\RealTimeProject\src\test\resources
